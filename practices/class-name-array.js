@@ -14,3 +14,6 @@ class Name {
 var x = new Name(["jose", "pepe", "manolo"])
 
 x.printAllName()
+
+
+// "holss"
