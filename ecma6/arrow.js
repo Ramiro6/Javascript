@@ -17,7 +17,7 @@ var multiplo = numero.map( (n) => {
 
 console.log(multiplo);
 
-////////
+///////
 
 setTimeout(function() {
   this.nombre = "pepe"
