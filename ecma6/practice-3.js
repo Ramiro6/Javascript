@@ -1,9 +1,9 @@
-var db = ["jose", "pepe", "manolo"]
+const DB = ["jose", "pepe", "manolo"]
 
 class Db {
-
+  
   constructor(y) {
-    for( let i of db ) {
+    for( let i of DB ) {
       let x = i.split("",1).toString().toUpperCase()
       let y = i.substr(1)
       console.log(x + y);
@@ -16,4 +16,4 @@ class Db {
   }
 }
 
-let u = new Db(db)
+let u = new Db(DB)
