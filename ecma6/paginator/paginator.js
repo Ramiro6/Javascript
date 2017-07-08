@@ -5,22 +5,22 @@ const DB = [{
   },
   {
     id: 2,
-    name: "another",
+    name: "jose",
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicingelit."
   },
   {
     id: 3,
-    name: "another",
+    name: "Pepe",
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicingelit."
   },
   {
     id: 4,
-    name: "another",
+    name: "tomas",
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicingelit."
   },
   {
     id: 5,
-    name: "another",
+    name: "joselo",
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicingelit."
   },
   {
@@ -30,12 +30,12 @@ const DB = [{
   },
   {
     id: 7,
-    name: "another",
+    name: "nacho",
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicingelit."
   },
   {
     id: 8,
-    name: "another",
+    name: "salmon",
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicingelit."
   },
 ]
@@ -46,6 +46,11 @@ $( document ).ready(()=> {
     for( let i of DB) {
       $(".pp").append(`<ul>${i.id}</ul>`)
 
+      if (i.id > 7) {
+        $(".buttom").append(`<buttom class="btn btn-primary">
+          Next
+          </buttom>`)
+      }
       console.log(i);
     }
   }
