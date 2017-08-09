@@ -1,0 +1,11 @@
+{
+  "name": "copy-inst",
+  "version": "1.0.0",
+  "description": "app como instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramiro Ruiz",
+  "license": "MIT"
+}
